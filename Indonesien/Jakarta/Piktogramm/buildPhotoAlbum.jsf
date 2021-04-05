@@ -1,0 +1,124 @@
+App.progressCountTotal = 15;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/01Willkommen.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '01Willkommen.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/01Willkommen_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/01Willkommen_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/01Willkommen_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/01Willkommen_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/01Willkommen_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/01Willkommen_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/02ErstesEssen.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '02ErstesEssen.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/02ErstesEssen_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/02ErstesEssen_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/02ErstesEssen_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/02ErstesEssen_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/02ErstesEssen_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/02ErstesEssen_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/03Morgenmuffel.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '03Morgenmuffel.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/03Morgenmuffel_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/03Morgenmuffel_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/03Morgenmuffel_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/03Morgenmuffel_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/03Morgenmuffel_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/03Morgenmuffel_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/04Indofamilie.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '04Indofamilie.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/04Indofamilie_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/04Indofamilie_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/04Indofamilie_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/04Indofamilie_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/04Indofamilie_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/04Indofamilie_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/05Photoshooting.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '05Photoshooting.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/05Photoshooting_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/05Photoshooting_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/05Photoshooting_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/05Photoshooting_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/05Photoshooting_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/05Photoshooting_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/06Gastfamilie.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '06Gastfamilie.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/06Gastfamilie_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/06Gastfamilie_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/06Gastfamilie_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/06Gastfamilie_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/06Gastfamilie_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/06Gastfamilie_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/07Indopark.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '07Indopark.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/07Indopark_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/07Indopark_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/07Indopark_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/07Indopark_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/07Indopark_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/07Indopark_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/08Indoschloss.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '08Indoschloss.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/08Indoschloss_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/08Indoschloss_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/08Indoschloss_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/08Indoschloss_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/08Indoschloss_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/08Indoschloss_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/09Indoteich.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '09Indoteich.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/09Indoteich_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/09Indoteich_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/09Indoteich_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/09Indoteich_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/09Indoteich_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/09Indoteich_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/10Indoaffe.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '10Indoaffe.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/10Indoaffe_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/10Indoaffe_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/10Indoaffe_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/10Indoaffe_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/10Indoaffe_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/10Indoaffe_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/11Laessig.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = '11Laessig.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/11Laessig_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/11Laessig_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/11Laessig_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/11Laessig_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/11Laessig_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/11Laessig_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/12Tempelgoetter.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = '12Tempelgoetter.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/12Tempelgoetter_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/12Tempelgoetter_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/12Tempelgoetter_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/12Tempelgoetter_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/12Tempelgoetter_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/12Tempelgoetter_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/13Indohaus.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = '13Indohaus.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/13Indohaus_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/13Indohaus_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/13Indohaus_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/13Indohaus_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/13Indohaus_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/13Indohaus_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/14Traditionshaus.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = '14Traditionshaus.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/14Traditionshaus_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/14Traditionshaus_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/14Traditionshaus_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/14Traditionshaus_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/14Traditionshaus_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/14Traditionshaus_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/15Indopark.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = '15Indopark.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/15Indopark_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/15Indopark_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Bilder/15Indopark_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/15Indopark_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/15Indopark_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Jakarta/Piktogramm/15Indopark_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

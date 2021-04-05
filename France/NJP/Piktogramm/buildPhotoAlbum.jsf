@@ -1,0 +1,52 @@
+App.progressCountTotal = 6;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/NJP/01njp.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '01njp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/01njp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/01njp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/01njp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/01njp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/01njp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/01njp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/NJP/02njp.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '02njp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/02njp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/02njp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/02njp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/02njp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/02njp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/02njp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/NJP/03njp.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '03njp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/03njp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/03njp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/03njp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/03njp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/03njp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/03njp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/NJP/04njp.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '04njp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/04njp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/04njp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/04njp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/04njp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/04njp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/04njp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/NJP/05njp.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '05njp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/05njp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/05njp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/05njp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/05njp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/05njp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/05njp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/NJP/06njp.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '06njp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/06njp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/06njp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Bilder/06njp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/06njp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/06njp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/NJP/Piktogramm/06njp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+'done';

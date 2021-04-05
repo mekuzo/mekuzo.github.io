@@ -1,0 +1,27 @@
+/* CSS Document */
+
+.navigation {
+	color: #000000;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	background-color: #0066CC;
+	display: block;
+	padding: 8px;
+	width: 141px;
+}
+
+.navigation:hover {
+	color: #FF6600;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	background-color: #000066;
+	display: block;
+	padding: 8px;
+	width: 141px;
+}

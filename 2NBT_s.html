@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>1.NBT Gruppensystem</title>
+<title>2.NBT Specials</title>
 <style type="text/css" media="screen">
 @import url("Fireworks/navi_nbt/navi_nbt.css");
 
@@ -23,7 +23,41 @@
 	
 
 </style>
-<script language="JavaScript1.2" type="text/javascript" src="Fireworks/navi_nbt/mm_css_menu.js"></script>
+<script language="JavaScript1.2" type="text/javascript" src="Fireworks/navi_nbt/mm_css_menu.js">
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
 <script type="text/JavaScript">
 <!--
 function MM_preloadImages() { //v3.0
@@ -50,15 +84,8 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-<link href="nbt_1.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
-.Stil2 {
-	color: #FFFFFF;
-	font-weight: bold;
-}
-.Stil3 {color: #FFFFFF; font-weight: bold; font-size: 18px; }
-.Stil4 {color: #6BAE6B}
 .Unterstrichen {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 18px;
@@ -70,9 +97,24 @@ function MM_swapImage() { //v3.0
 }
 -->
 </style>
+<link href="nbt_2.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.Stil5 {color: #00CC33}
+.Stil11 {font-size: 24px; font-weight: bold; color: #339900; }
+.Stil14 {font-size: 12px; font-style: italic; }
+.Stil15 {font-size: 22px}
+.Stil16 {font-size: 22px; font-weight: bold; color: #339900; }
+.Stil17 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.Stil18 {color: #FFFFFF; font-weight: bold; font-size: 18px; }
+-->
+</style>
 </head>
 
-<body onload="MM_preloadImages('Fireworks/navi_nbt/navi_nbt_r1_c2_f2.gif')">
+<body onload="MM_CheckFlashVersion('8,0,0,0','Um sich das Interview des Turniersiegers anzuschauen, ben&ouml;tigen Sie eine neue Version des Flash-Players. M&ouml;chten Sie sie jetzt herunterladen?');MM_preloadImages('Fireworks/navi_nbt/navi_nbt_r1_c2_f2.gif')">
 <div id="FWTableContainer107058354">
   <table border="0" cellpadding="0" cellspacing="0" width="505">
     <!-- fwtable fwsrc="navi_nbt.png" fwpage="Page 1" fwbase="navi_nbt.gif" fwstyle="Dreamweaver" fwdocid = "107058354" fwnested="0" -->
@@ -118,71 +160,95 @@ function MM_swapImage() { //v3.0
 </div>
 <table width="800" border="0" cellspacing="2" cellpadding="2">
   <tr>
-    <td width="158"><span class="Stil1">1. <em>NBT</em> </span></td>
-    <td width="628"><div align="center">
+    <td width="110"><span class="Stil1 Stil5">2. <em>NBT</em> </span></td>
+    <td width="676"><div align="center">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td width="25%"><img src="Fireworks/navilinksbl.gif" alt="navili" width="24" height="36" /></td>
-          <td width="25%"><div align="center"><a href="1NBT.html" class="navigation">Allgemeines</a></div></td>
-          <td width="25%"><div align="center"><a href="1NBT_g.html" class="navigation">Gruppensystem</a></div></td>
-          <td width="25%"><div align="center"><a href="1NBT_k.html" class="navigation">K.o.-Runde</a></div></td>
-          <td width="25%"><div align="center"><a href="1NBT_s.html" class="navigation">Der Sieger</a></div></td>
-          <td width="25%"><img src="Fireworks/navirechtsbl.gif" alt="navire" width="24" height="36" /></td>
+          <td width="25%"><div align="right"><img src="Fireworks/navilinks.gif" alt="navili" width="24" height="36" /></div></td>
+          <td width="25%"><div align="center"><a href="2NBT_a.html" class="navigation">Allgemeines</a></div></td>
+          <td width="25%"><div align="center"><a href="2NBT_g.html" class="navigation">Gruppensystem</a></div></td>
+          <td width="25%"><div align="center"><a href="2NBT_k.html" class="navigation">K.o.-Runde</a></div></td>
+          <td width="25%"><div align="center"><a href="2NBT_s.html" class="navigation">Specials</a></div></td>
+          <td width="25%"><img src="Fireworks/navirechts.gif" alt="navire" width="24" height="36" /></td>
         </tr>
       </table>
     </div></td>
   </tr>
 </table>
-<table width="800" border="0" cellspacing="2" cellpadding="2">
-  
+<table width="800" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
   <tr>
-    <td><table width="100" border="2" cellpadding="2" cellspacing="2" bordercolor="#000000">
+    <td bgcolor="#CCFF66"><div align="center" class="Stil11 Stil15">Live-Interview</div></td>
+    <td bgcolor="#CCFF66"><div align="center" class="Stil16">Kommentare</div></td>
+  </tr>
+  <tr>
+    <td height="250" bgcolor="#66FFFF"><p align="center">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="300" height="225" id="FLVPlayer">
+        <param name="movie" value="FLVPlayer_Progressive.swf" />
+        <param name="salign" value="lt" />
+        <param name="quality" value="high" />
+        <param name="scale" value="noscale" />
+        <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_3&streamName=NBT/2NBT/Interview&autoPlay=false&autoRewind=true" />
+        <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_3&streamName=NBT/2NBT/Interview&autoPlay=false&autoRewind=true" quality="high" scale="noscale" width="300" height="225" name="FLVPlayer" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />          
+      </object>
+    <span class="Stil14">Das Statement des neuen Titelverteidigers &uuml;ber den Verlauf des Turnieres...  </span></p>    </td>
+    <td width="490" valign="top" bgcolor="#66FFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="36" bgcolor="#0000FF"><div align="center" class="Unterstrichen">Gruppe A </div></td>
+        <td><div align="center"> <br />
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="140" height="200" title="stephan_des">
+            <param name="movie" value="Flash/stephandes.swf" />
+            <param name="quality" value="high" />
+            <embed src="Flash/stephandes.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="140" height="200"></embed>
+          </object>
+          <br />
+          <a href="NBT/2NBT/stephan2nbt.mp3"></a></div></td>
+        <td><div align="center"><a href="NBT/2NBT/timsteffen2nbt.mp3"></a>
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="200" height="123" title="finalanalyse">
+            <param name="movie" value="Flash/finalanalyse.swf" />
+            <param name="quality" value="high" />
+            <embed src="Flash/finalanalyse.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="200" height="123"></embed>
+          </object>
+        </div></td>
+        <td><div align="center"> <br />
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="132" height="200" title="turniersieger">
+            <param name="movie" value="Flash/turniersieger.swf" />
+            <param name="quality" value="high" />
+            <embed src="Flash/turniersieger.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="132" height="200"></embed>
+          </object>
+          <br />
+          <a href="NBT/2NBT/steffen2nbt.mp3"></a></div></td>
       </tr>
-      <tr bgcolor="#6BAE6B">
-        <td bgcolor="#6BAE6B"><div align="center"><img src="NBT/Henry.JPG" alt="Henry" width="78" height="95" /></div></td>
-      </tr>
-      <tr bgcolor="#0000FF">
-        <td><div align="center" class="Stil2">Henry</div></td>
-      </tr>
-      <tr bgcolor="#6BAE6B">
-        <td><div align="center"><img src="NBT/Christian.JPG" alt="Christian" width="72" height="90" /></div></td>
-      </tr>
-      <tr bgcolor="#0000FF">
-        <td><div align="center" class="Stil2">Christian</div></td>
-      </tr>
-      <tr bgcolor="#6BAE6B">
-        <td><div align="center"><img src="NBT/Roland.JPG" alt="Roland" width="64" height="84" /></div></td>
-      </tr>
-      <tr bgcolor="#0000FF">
-        <td><div align="center" class="Stil2">Roland</div></td>
-      </tr>
-    </table></td>
-    <td><div align="center"><img src="NBT/1NBT01Vorrunde.jpg" alt="Vorrunde" width="581" height="412" /></div></td>
-    <td><table width="100" border="2" cellpadding="2" cellspacing="2" bordercolor="#000000">
       <tr>
-        <td height="36" bgcolor="#0000FF"><div align="center" class="Stil3"><span class="Unterstrichen">Gruppe B</span> </div></td>
+        <td><div align="center"><span class="Stil14">Stephan L. &uuml;ber seine desastr&ouml;se Leistung</span></div></td>
+        <td><div align="center"><span class="Stil14">Spielanalyse der beiden Finalisten </span></div></td>
+        <td><div align="center"><span class="Stil14">Das Statement des Turniersiegers... ohne Bild </span></div></td>
       </tr>
-      <tr bgcolor="#6BAE6B">
-        <td><div align="center" class="Stil4"><img src="NBT/Stephan.JPG" alt="Stephan" width="68" height="82" /></div></td>
-      </tr>
-      <tr bgcolor="#0000FF">
-        <td><div align="center"><span class="Stil2">Stephan</span></div></td>
-      </tr>
-      <tr bgcolor="#6BAE6B">
-        <td><div align="center" class="Stil4"><img src="NBT/Nico.JPG" alt="Nico" width="63" height="79" /></div></td>
-      </tr>
-      <tr bgcolor="#0000FF">
-        <td><div align="center"><span class="Stil2">Nico</span></div></td>
-      </tr>
-      <tr bgcolor="#6BAE6B">
-        <td><div align="center" class="Stil4"><img src="NBT/Mandy.JPG" alt="Mandy" width="67" height="87" /></div></td>
-      </tr>
-      <tr bgcolor="#0000FF">
-        <td bordercolor="#000000"><div align="center"><span class="Stil2">Mandy</span></div></td>
-      </tr>
+
     </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center">
+      <table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+        <tr>
+          <td width="160" bgcolor="#CEFF63"><div align="center"><span class="Stil16">Bildergalerie</span></div></td>
+          <td width="90" bgcolor="#66FFFF"><table width="90" border="0" cellpadding="0" cellspacing="0" background="NBT/2NBT/pokalklein.jpg">
+            <tr>
+              <td width="90" height="125"><div align="center">
+                <p class="Stil17">&nbsp;</p>
+                <p class="Stil18"><a href="2NBT_x.html">Klick hier </a></p>
+              </div></td>
+            </tr>
+          </table></td>
+          <td width="130" bgcolor="#CEFF63"><div align="center"><span class="Stil16">Statistik:</span></div></td>
+          <td height="127" align="center" valign="middle" bgcolor="#66FFFF"><div align="center">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="400" height="125" title="Statistik">
+              <param name="movie" value="Flash/Statistik.swf" />
+              <param name="quality" value="high" />
+              <embed src="Flash/Statistik.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="400" height="125"></embed>
+            </object>
+          </div></td>
+        </tr>
+      </table>
+      </div></td>
   </tr>
 </table>
 </body>

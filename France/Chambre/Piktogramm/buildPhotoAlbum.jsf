@@ -1,0 +1,100 @@
+App.progressCountTotal = 12;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/01vuedroite.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '01vuedroite.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/01vuedroite_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/01vuedroite_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/01vuedroite_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/01vuedroite_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/01vuedroite_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/01vuedroite_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/02vuegauche.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '02vuegauche.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/02vuegauche_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/02vuegauche_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/02vuegauche_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/02vuegauche_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/02vuegauche_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/02vuegauche_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/03Murblanc.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '03Murblanc.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/03Murblanc_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/03Murblanc_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/03Murblanc_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/03Murblanc_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/03Murblanc_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/03Murblanc_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/04Entree.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '04Entree.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/04Entree_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/04Entree_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/04Entree_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/04Entree_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/04Entree_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/04Entree_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/05Machambre.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '05Machambre.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/05Machambre_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/05Machambre_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/05Machambre_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/05Machambre_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/05Machambre_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/05Machambre_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/06chambredroite.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '06chambredroite.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/06chambredroite_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/06chambredroite_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/06chambredroite_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/06chambredroite_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/06chambredroite_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/06chambredroite_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/07chambregauche.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '07chambregauche.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/07chambregauche_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/07chambregauche_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/07chambregauche_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/07chambregauche_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/07chambregauche_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/07chambregauche_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/08Robinets.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '08Robinets.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/08Robinets_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/08Robinets_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/08Robinets_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/08Robinets_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/08Robinets_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/08Robinets_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/09Armoire.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '09Armoire.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/09Armoire_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/09Armoire_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/09Armoire_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/09Armoire_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/09Armoire_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/09Armoire_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/10Etagere.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '10Etagere.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/10Etagere_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/10Etagere_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/10Etagere_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/10Etagere_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/10Etagere_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/10Etagere_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/11Frigo.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = '11Frigo.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/11Frigo_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/11Frigo_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/11Frigo_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/11Frigo_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/11Frigo_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/11Frigo_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/Chambre/12Lavabo.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = '12Lavabo.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/12Lavabo_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/12Lavabo_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Bilder/12Lavabo_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/12Lavabo_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/12Lavabo_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/Chambre/Piktogramm/12Lavabo_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

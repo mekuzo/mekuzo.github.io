@@ -1,0 +1,76 @@
+App.progressCountTotal = 9;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/01ParkmitBaum.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '01ParkmitBaum.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/01ParkmitBaum_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/01ParkmitBaum_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/01ParkmitBaum_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/01ParkmitBaum_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/01ParkmitBaum_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/01ParkmitBaum_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/02Baum.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '02Baum.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/02Baum_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/02Baum_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/02Baum_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/02Baum_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/02Baum_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/02Baum_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/03chutedeau.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '03chutedeau.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/03chutedeau_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/03chutedeau_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/03chutedeau_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/03chutedeau_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/03chutedeau_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/03chutedeau_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/04pavillion.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '04pavillion.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/04pavillion_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/04pavillion_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/04pavillion_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/04pavillion_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/04pavillion_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/04pavillion_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/05queueleuleu.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '05queueleuleu.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/05queueleuleu_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/05queueleuleu_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/05queueleuleu_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/05queueleuleu_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/05queueleuleu_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/05queueleuleu_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/06centre.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '06centre.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/06centre_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/06centre_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/06centre_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/06centre_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/06centre_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/06centre_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/07etang.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '07etang.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/07etang_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/07etang_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/07etang_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/07etang_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/07etang_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/07etang_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/08ile.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '08ile.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/08ile_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/08ile_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/08ile_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/08ile_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/08ile_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/08ile_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/09parterre.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '09parterre.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/09parterre_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/09parterre_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Bilder/09parterre_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/09parterre_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/09parterre_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/France/ParcVandoeuvre/Piktogramm/09parterre_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

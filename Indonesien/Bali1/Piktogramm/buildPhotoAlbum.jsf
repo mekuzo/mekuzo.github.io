@@ -1,0 +1,196 @@
+App.progressCountTotal = 24;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/01Kulinarisch.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '01Kulinarisch.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/01Kulinarisch_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/01Kulinarisch_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/01Kulinarisch_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/01Kulinarisch_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/01Kulinarisch_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/01Kulinarisch_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/02Verdauung.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '02Verdauung.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/02Verdauung_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/02Verdauung_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/02Verdauung_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/02Verdauung_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/02Verdauung_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/02Verdauung_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/03Tempelfrau.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '03Tempelfrau.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/03Tempelfrau_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/03Tempelfrau_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/03Tempelfrau_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/03Tempelfrau_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/03Tempelfrau_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/03Tempelfrau_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/05Blumenkinder.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '05Blumenkinder.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/05Blumenkinder_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/05Blumenkinder_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/05Blumenkinder_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/05Blumenkinder_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/05Blumenkinder_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/05Blumenkinder_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/06Hemdsteffen.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '06Hemdsteffen.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/06Hemdsteffen_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/06Hemdsteffen_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/06Hemdsteffen_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/06Hemdsteffen_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/06Hemdsteffen_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/06Hemdsteffen_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/07Rockmandy.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '07Rockmandy.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/07Rockmandy_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/07Rockmandy_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/07Rockmandy_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/07Rockmandy_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/07Rockmandy_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/07Rockmandy_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/08Hutnico.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '08Hutnico.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/08Hutnico_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/08Hutnico_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/08Hutnico_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/08Hutnico_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/08Hutnico_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/08Hutnico_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/09Vulkan.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '09Vulkan.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/09Vulkan_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/09Vulkan_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/09Vulkan_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/09Vulkan_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/09Vulkan_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/09Vulkan_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/10Essmanieren.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '10Essmanieren.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/10Essmanieren_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/10Essmanieren_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/10Essmanieren_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/10Essmanieren_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/10Essmanieren_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/10Essmanieren_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/11Bananenbaum.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '11Bananenbaum.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/11Bananenbaum_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/11Bananenbaum_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/11Bananenbaum_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/11Bananenbaum_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/11Bananenbaum_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/11Bananenbaum_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/12Kaffeeklatsch.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = '12Kaffeeklatsch.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/12Kaffeeklatsch_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/12Kaffeeklatsch_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/12Kaffeeklatsch_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/12Kaffeeklatsch_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/12Kaffeeklatsch_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/12Kaffeeklatsch_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/13Kaufmannsladen.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = '13Kaufmannsladen.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/13Kaufmannsladen_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/13Kaufmannsladen_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/13Kaufmannsladen_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/13Kaufmannsladen_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/13Kaufmannsladen_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/13Kaufmannsladen_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/14Annanass.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = '14Annanass.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/14Annanass_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/14Annanass_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/14Annanass_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/14Annanass_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/14Annanass_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/14Annanass_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/15reisterrasse.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = '15reisterrasse.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/15reisterrasse_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/15reisterrasse_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/15reisterrasse_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/15reisterrasse_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/15reisterrasse_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/15reisterrasse_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/16bedienung.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = '16bedienung.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/16bedienung_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/16bedienung_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/16bedienung_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/16bedienung_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/16bedienung_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/16bedienung_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/17shake_it.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = '17shake_it.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/17shake_it_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/17shake_it_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/17shake_it_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/17shake_it_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/17shake_it_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/17shake_it_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/18cafe.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = '18cafe.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/18cafe_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/18cafe_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/18cafe_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/18cafe_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/18cafe_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/18cafe_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/19baeumchen.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = '19baeumchen.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/19baeumchen_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/19baeumchen_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/19baeumchen_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/19baeumchen_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/19baeumchen_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/19baeumchen_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/20strandbank.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = '20strandbank.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/20strandbank_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/20strandbank_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/20strandbank_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/20strandbank_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/20strandbank_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/20strandbank_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/21sandstrand.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = '21sandstrand.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/21sandstrand_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/21sandstrand_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/21sandstrand_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/21sandstrand_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/21sandstrand_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/21sandstrand_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/22fernweh.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = '22fernweh.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/22fernweh_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/22fernweh_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/22fernweh_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/22fernweh_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/22fernweh_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/22fernweh_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/23steilkueste.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = '23steilkueste.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/23steilkueste_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/23steilkueste_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/23steilkueste_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/23steilkueste_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/23steilkueste_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/23steilkueste_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/24brandung.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = '24brandung.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/24brandung_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/24brandung_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/24brandung_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/24brandung_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/24brandung_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/24brandung_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/25strandcamp.jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = '25strandcamp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/25strandcamp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/25strandcamp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Bilder/25strandcamp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/25strandcamp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/25strandcamp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Bali1/Piktogramm/25strandcamp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

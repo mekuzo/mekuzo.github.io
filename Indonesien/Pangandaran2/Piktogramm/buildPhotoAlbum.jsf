@@ -1,0 +1,124 @@
+App.progressCountTotal = 15;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/17Schunkel.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '17Schunkel.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/17Schunkel_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/17Schunkel_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/17Schunkel_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/17Schunkel_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/17Schunkel_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/17Schunkel_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/18Lagune.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '18Lagune.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/18Lagune_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/18Lagune_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/18Lagune_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/18Lagune_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/18Lagune_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/18Lagune_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/19Verwandte.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '19Verwandte.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/19Verwandte_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/19Verwandte_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/19Verwandte_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/19Verwandte_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/19Verwandte_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/19Verwandte_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/20Deathfromabove.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '20Deathfromabove.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/20Deathfromabove_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/20Deathfromabove_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/20Deathfromabove_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/20Deathfromabove_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/20Deathfromabove_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/20Deathfromabove_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/21Strandpaar.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '21Strandpaar.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/21Strandpaar_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/21Strandpaar_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/21Strandpaar_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/21Strandpaar_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/21Strandpaar_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/21Strandpaar_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/22Strandbucht.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '22Strandbucht.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/22Strandbucht_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/22Strandbucht_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/22Strandbucht_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/22Strandbucht_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/22Strandbucht_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/22Strandbucht_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/23Ahnenspur.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '23Ahnenspur.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/23Ahnenspur_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/23Ahnenspur_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/23Ahnenspur_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/23Ahnenspur_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/23Ahnenspur_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/23Ahnenspur_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/24Naturwunder.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '24Naturwunder.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/24Naturwunder_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/24Naturwunder_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/24Naturwunder_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/24Naturwunder_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/24Naturwunder_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/24Naturwunder_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/25Hopp.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '25Hopp.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/25Hopp_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/25Hopp_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/25Hopp_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/25Hopp_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/25Hopp_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/25Hopp_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/27Huhni.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '27Huhni.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/27Huhni_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/27Huhni_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/27Huhni_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/27Huhni_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/27Huhni_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/27Huhni_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/28Gecko.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = '28Gecko.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/28Gecko_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/28Gecko_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/28Gecko_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/28Gecko_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/28Gecko_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/28Gecko_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/29Terrasse.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = '29Terrasse.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/29Terrasse_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/29Terrasse_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/29Terrasse_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/29Terrasse_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/29Terrasse_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/29Terrasse_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/30Bungalow.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = '30Bungalow.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/30Bungalow_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/30Bungalow_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/30Bungalow_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/30Bungalow_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/30Bungalow_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/30Bungalow_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/31Spinnentisch.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = '31Spinnentisch.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/31Spinnentisch_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/31Spinnentisch_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/31Spinnentisch_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/31Spinnentisch_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/31Spinnentisch_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/31Spinnentisch_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/32Rueckfahrt.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = '32Rueckfahrt.jpg';
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/32Rueckfahrt_jpg.jpg') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/32Rueckfahrt_jpg.jpg ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Bilder/32Rueckfahrt_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/32Rueckfahrt_jpg.gif') || confirm('file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/32Rueckfahrt_jpg.gif ist bereits vorhanden. Klicken Sie auf \'OK\', um die Datei zu ersetzen.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Homepage/Verzeichnis2/Indonesien/Pangandaran2/Piktogramm/32Rueckfahrt_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';
